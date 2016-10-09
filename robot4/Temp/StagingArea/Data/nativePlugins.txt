@@ -1,0 +1,3 @@
+VuforiaWrapper.dll
+Vuforia.dll
+AudioPluginMsHRTF.dll

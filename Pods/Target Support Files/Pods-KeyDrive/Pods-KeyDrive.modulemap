@@ -1,0 +1,6 @@
+framework module Pods_KeyDrive {
+  umbrella header "Pods-KeyDrive-umbrella.h"
+
+  export *
+  module * { export * }
+}

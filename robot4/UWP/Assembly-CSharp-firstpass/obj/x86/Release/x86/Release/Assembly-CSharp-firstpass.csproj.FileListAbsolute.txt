@@ -1,0 +1,85 @@
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\Users\MTC\Desktop\HolographicAcademy-Holograms-101\HolographicAcademy-Holograms-101\Catch up Chapters\8-Finale\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\work\robot\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\work\robot\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\work\robot2\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\work\robot3\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\work\robot4\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt

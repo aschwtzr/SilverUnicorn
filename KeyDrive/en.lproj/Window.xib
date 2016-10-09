@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment version="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11201"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MyWindowController">
+            <connections>
+                <outlet property="window" destination="371" id="585"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application">
+            <connections>
+                <outlet property="delegate" destination="494" id="586"/>
+            </connections>
+        </customObject>
+        <window title="KeyDrive" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+            <view key="contentView" id="372">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="553">
+                        <rect key="frame" x="65" y="286" width="238" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Press keyboard arrows to drive Sphero" id="554">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="559">
+                        <rect key="frame" x="65" y="261" width="239" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Press space bar to stop driving Sphero" id="560">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="565">
+                        <rect key="frame" x="65" y="236" width="288" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Hold shift and move arrows to calibrate Sphero" id="566">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="571">
+                        <rect key="frame" x="28" y="316" width="205" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="577"/>
+                            <constraint firstAttribute="width" constant="201" id="578"/>
+                        </constraints>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Instructions:" id="572">
+                            <font key="font" metaFont="system" size="21"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="553" firstAttribute="leading" secondItem="372" secondAttribute="leading" constant="67" id="558"/>
+                    <constraint firstItem="559" firstAttribute="leading" secondItem="553" secondAttribute="leading" id="563"/>
+                    <constraint firstItem="559" firstAttribute="top" secondItem="553" secondAttribute="bottom" constant="8" symbolic="YES" id="564"/>
+                    <constraint firstItem="565" firstAttribute="top" secondItem="559" secondAttribute="bottom" constant="8" symbolic="YES" id="569"/>
+                    <constraint firstItem="565" firstAttribute="leading" secondItem="559" secondAttribute="leading" id="570"/>
+                    <constraint firstItem="571" firstAttribute="leading" secondItem="372" secondAttribute="leading" constant="30" id="580"/>
+                    <constraint firstItem="571" firstAttribute="top" secondItem="372" secondAttribute="top" constant="15" id="581"/>
+                    <constraint firstItem="553" firstAttribute="top" secondItem="372" secondAttribute="top" constant="57" id="582"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="584"/>
+            </connections>
+        </window>
+        <customObject id="494" customClass="AppDelegate"/>
+        <customObject id="420" customClass="NSFontManager"/>
+    </objects>
+</document>

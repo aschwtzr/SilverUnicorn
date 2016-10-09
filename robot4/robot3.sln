@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{73FA0ADF-6D85-D35A-DE3B-EE71B51A3F9C}") = "robot3", "Assembly-CSharp.csproj", "{29DC3120-0556-C270-D119-19F501DD65B1}"
+EndProject
+Project("{73FA0ADF-6D85-D35A-DE3B-EE71B51A3F9C}") = "robot3", "Assembly-CSharp-Editor.csproj", "{EDF6C110-A8EA-82ED-F99C-AB18B09143E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29DC3120-0556-C270-D119-19F501DD65B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DC3120-0556-C270-D119-19F501DD65B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DC3120-0556-C270-D119-19F501DD65B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DC3120-0556-C270-D119-19F501DD65B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF6C110-A8EA-82ED-F99C-AB18B09143E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF6C110-A8EA-82ED-F99C-AB18B09143E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF6C110-A8EA-82ED-F99C-AB18B09143E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF6C110-A8EA-82ED-F99C-AB18B09143E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
