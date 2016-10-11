@@ -98,9 +98,10 @@
     // if pressed any arrow
     if(keyChar == NSUpArrowFunctionKey) {
         if( !isCalibrating ) [RKRollCommand sendCommandWithHeading:0.0 velocity:0.6];
-    }
+          }
     else if(keyChar == NSDownArrowFunctionKey) {
         if( !isCalibrating ) [RKRollCommand sendCommandWithHeading:180.0 velocity:0.6];
+
     }
     else if(keyChar == NSLeftArrowFunctionKey) {
         // Drive when shift is not active
@@ -216,6 +217,7 @@
     if(![listenSocket acceptOnPort:port error:&error])
     {
       NSLog(@"Error starting server: %@", error);
+      
       return;
     }
     
@@ -306,11 +308,13 @@
       void *p = &bytesread[0];
       
       [strData getBytes:p length:toread];
-
       for ( int x = 0 ; x <toread ; x++ )
       {
+        NSLog(@"%c",bytesread[x]);
+
         if( bytesread[x] == 1) {
           [RKRollCommand sendCommandWithHeading:0.0 velocity:0.6];
+
         }
         else if (bytesread[x] == 2 )
         {
@@ -326,6 +330,71 @@
         else if (bytesread[x] == 5 )
         {
            [RKRollCommand sendStop];
+        }
+        else if (bytesread[x] == 6) //flip
+        {
+          [self returnSpheroToStableState];
+          
+          // Create a new macro object to send to Sphero
+          RKMacroObject* flipMacro = [[RKMacroObject alloc]init];
+          // Change color immediately to blue
+          [flipMacro addCommand:[RKMCRGB commandWithRed:0 green:0 blue:1.0 delay:3000]];
+          // You must turn stabilization off to use the raw motors
+          [flipMacro addCommand:[RKMCStabilization commandWithSetting:RKStabilizationStateOff
+                                                                delay:3000]];
+          // Run both motors forward at full power
+          [flipMacro addCommand:[RKMCRawMotor commandWithLeftMode:RKRawMotorModeForward
+                                                        leftSpeed:255
+                                                        rightMode:RKRawMotorModeForward
+                                                       rightSpeed:255
+                                                            delay:3000]];
+          // Delay for a certain time period
+          [flipMacro addCommand:[RKMCDelay commandWithDelay:3000]];
+          // Remeber to turn stabilization back on
+          [flipMacro addCommand:[RKMCStabilization commandWithSetting:RKStabilizationStateOn
+                                                                delay:3000]];
+          // Turn to green
+          [flipMacro addCommand:[RKMCRGB commandWithRed:0 green:1.0 blue:0 delay:3000]];
+          // Set send mode, normal means simple load and run
+          flipMacro.mode = RKMacroObjectModeNormal;
+          // Play macro
+          [flipMacro playMacro];
+          // Release memory
+          [flipMacro release];
+        }
+        else if (bytesread[x] == 7 ) //dance
+        {
+          [self returnSpheroToStableState];
+        
+        // Get drive speed
+        float driveSpeed = 10 / 10.0f;
+        
+        // Create a new macro object to send to Sphero
+        RKMacroObject* figure8Macro = [[RKMacroObject alloc]init];
+        // Start driving ball ( this is not a blocking command, so you need to delay seperate)
+        [figure8Macro addCommand:[RKMCRoll commandWithSpeed:driveSpeed heading:0 delay:3000]];
+        // Start a loop to figure 8
+        [figure8Macro addCommand:[RKMCLoopFor commandWithRepeats:3000]];
+        // Make Sphero do a circle clockwise (not a blocking command)
+        [figure8Macro addCommand:[RKMCRotateOverTime commandWithRotation:360
+                                                                   delay:3000]];
+        // Delay for a certain time period
+        [figure8Macro addCommand:[RKMCDelay commandWithDelay:3000]];
+        // Make Sphero do a circle counter-clockwise (not a blocking command)
+        [figure8Macro addCommand:[RKMCRotateOverTime commandWithRotation:-360
+                                                                   delay:3000]];
+        // Delay for a certain time period
+        [figure8Macro addCommand:[RKMCDelay commandWithDelay:3000]];
+        // End loop bracket
+        [figure8Macro addCommand:[RKMCLoopEnd command]];
+        // Stop driving ball
+        [figure8Macro addCommand:[RKMCRoll commandWithSpeed:0.0f heading:0 delay:3000]];
+        // Set send mode, normal means simple load and run
+        figure8Macro.mode = RKMacroObjectModeNormal;
+        // Play macro
+        [figure8Macro playMacro];
+        // Release memory
+        [figure8Macro release];
         }
       }
       
@@ -399,6 +468,12 @@
   [sock writeData:data withTimeout:-1 tag:ECHO_MSG];
 }
 
+-(void) returnSpheroToStableState {
+  [RKAbortMacroCommand sendCommand];
+  [RKStabilizationCommand sendCommandWithState:RKStabilizationStateOn];
+  [RKBackLEDOutputCommand sendCommandWithBrightness:0.0f];
+  [RKRollCommand sendStop];
+}
 
 
 /**
